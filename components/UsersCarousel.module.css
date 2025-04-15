@@ -1,0 +1,49 @@
+.usersCarousel_outer {
+  height: 99.9vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100vw;
+}
+.usersCarousel_outer::-webkit-scrollbar {
+  display: none;
+}
+.usersCarousel_outer:focus {
+  outline: none;
+}
+
+.usersCarousel_inner {
+  height: 100vh;
+}
+
+.usersCarousel {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  pointer-events: none;
+  transition: top 0.2s ease-in-out;
+}
+
+.usersCarousel_item {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.usersCarousel_activeUserInfo {
+  position: fixed;
+  top: 12rem;
+  left: 0;
+  width: 100%;
+  padding-left: 20rem;
+  padding-right: 2rem;
+  pointer-events: none;
+
+}
+.usersCarousel_activeUserStats {
+  margin-top:2rem
+}
+
+

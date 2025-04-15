@@ -1,0 +1,27 @@
+.userProfile_stats_bar {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #e2e2e2;
+  margin-bottom: 1rem;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.userProfile_stats_bar_label {
+  position: absolute;
+  top: 0.8rem;
+  left: 1.5rem;
+  z-index: 1;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.userProfile_stats_bar_fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.5s ease-in-out;
+}
